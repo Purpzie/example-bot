@@ -1,0 +1,25 @@
+{
+	"include": ["src"],
+	"compilerOptions": {
+		"rootDir": "src",
+		"outDir": "build",
+		"lib": ["es2022"],
+		"target": "es2022",
+		"module": "node16",
+		"moduleResolution": "node16",
+		"sourceMap": true,
+
+		"strict": true,
+		"noImplicitOverride": true,
+		"noUncheckedIndexedAccess": true,
+		"noUnusedLocals": true,
+		"noUnusedParameters": true,
+		"skipLibCheck": true,
+		"useUnknownInCatchVariables": false,
+
+		"esModuleInterop": true,
+		"forceConsistentCasingInFileNames": true,
+		"importHelpers": true,
+		"newLine": "lf"
+	}
+}
