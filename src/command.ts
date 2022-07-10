@@ -24,8 +24,8 @@ export abstract class BotCommand<
 	/** Whether this command should only appear in the developer server. */
 	devGuildOnly = false;
 
-	constructor(client: Bot<true>) {
-		Object.defineProperty(this, "client", { value: client });
+	constructor(bot: Bot<true>) {
+		Object.defineProperty(this, "bot", { value: bot });
 	}
 
 	/** Called when this command is run. */
